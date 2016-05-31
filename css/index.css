@@ -34,13 +34,16 @@
   color: #fff;
 }
 
+.main-section{
+  height: 101vh;
+}
+
 video{
-  width: 100%; 
-  height: 100%;
+  width: 100%;
   -webkit-filter: brightness(.9);
 }
 
-.main-text{
+.main-section .text{
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
@@ -52,7 +55,7 @@ video{
   line-height: 110%;
 }
 
-.main-text > span{
+.main-section .text > span{
   width: 100%;
   text-align: center;
   vertical-align: middle;
@@ -158,4 +161,244 @@ video{
     -o-transform: translate(0, 0);
     transform: translate(0, 0);
   }
+}
+
+
+.services{
+  height: 800px;
+  background-image: url(../images/services-bg.jpg);
+  margin-top: -25px;
+  position: relative;
+}
+
+.services-container{
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.services-head{
+  text-align: center;
+}
+
+.services-head > .title{
+  color: #565656;
+  text-transform: uppercase;
+}
+
+.services-head > .subtitle{
+  color: #565656;
+  text-transform: uppercase;
+}
+
+.services-container > .info {
+  margin-top: 100px;
+  height: 588px;
+  position: relative;
+}
+
+.circle-wrapper{
+  height: 628px;
+  overflow: hidden;
+  position: relative;
+}
+
+.circle-wrapper > .circle{
+  width: 790px;
+  height: 750px;
+  margin: 0 auto;
+  border: 1px dashed #c0c0c0;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: -397px;
+  left: 50%;
+  top: 40px;
+}
+
+.services-icons div{
+  position: absolute;
+}
+
+.services-icons > .web-design{
+  left: 15%;
+  bottom: 18%;
+}
+
+.services-icons > .web-design > span{
+  position: absolute;
+  right: 20px;
+  width: 100px;
+  top: 45px;
+  color: #83b444;
+  text-transform: uppercase;
+}
+
+.services-icons > .web-design > i{
+  font-size: 50pt;
+  background: linear-gradient(to left, #76a23d 0%,#76a23d 50%,#76a23d 50%,#83b444 50%,#83b444 100%);
+  color: #fff;
+  padding: 25px 23px;
+  position: absolute;
+  border-radius: 100px;
+}
+
+.services-icons > .web-apps{
+  left: 13%;
+  bottom: 55%;
+}
+
+.services-icons > .web-apps > span{
+  position: absolute;
+  right: 20px;
+  width: 100px;
+  top: 45px;
+  color: #ffbc31;
+  text-transform: uppercase;
+}
+
+.services-icons > .web-apps > i{
+  font-size: 50pt;
+  background: linear-gradient(to left, #e6a92c 0%,#e6a92c 50%,#e6a92c 50%,#ffbc31 50%,#ffbc31 100%);
+  color: #fff;
+  padding: 25px 23px;
+  position: absolute;
+  border-radius: 100px;
+}
+
+.services-icons > .mobile-apps{
+  left: 24%;
+  top: 12%;
+}
+
+.services-icons > .mobile-apps > span{
+  position: absolute;
+  right: 20px;
+  width: 100px;
+  top: 45px;
+  color: #f34119;
+  text-transform: uppercase;
+}
+
+.services-icons > .mobile-apps > i{
+  font-size: 60pt;
+  background: linear-gradient(to left, #d63e1c 0%,#d63e1c 50%,#d63e1c 50%,#f34119 50%,#f34119 100%);
+  color: #fff;
+  padding: 18px 42px;
+  position: absolute;
+  border-radius: 100px;
+}
+
+.services-icons > .ecommerce{
+  left: 50%;
+  top: -30px;
+  margin-left: -59px;
+}
+
+.services-icons > .ecommerce > span{
+  position: absolute;
+  width: 235px;
+  color: #db5f9b;
+  text-transform: uppercase;
+  top: -15px;
+  right: -190px;
+}
+
+.services-icons > .ecommerce > i{
+  font-size: 50pt;
+  background: linear-gradient(to left, #c5558b 0%,#c5558b 50%,#c5558b 50%,#db5f9b 50%,#db5f9b 100%);
+  color: #fff;
+  padding: 25px 28px;
+  position: absolute;
+  border-radius: 100px;
+}
+
+.services-icons > .branding{
+  right: 34%;
+  top: 12%;
+}
+
+.services-icons > .branding > span{
+  position: absolute;
+  left: 135px;
+  width: 100px;
+  top: 45px;
+  color: #6533c5;
+  text-transform: uppercase;
+}
+
+.services-icons > .branding > i{
+  font-size: 50pt;
+  background: linear-gradient(to left, #6d3ec7 0%,#6d3ec7 50%,#6d3ec7 50%,#7744da 50%,#7744da 100%);
+  color: #fff;
+  padding: 25px 30px;
+  position: absolute;
+  border-radius: 100px;
+}
+
+.services-icons > .strategy{
+  right: 23%;
+  bottom: 55%;
+}
+
+.services-icons > .strategy > span{
+  position: absolute;
+  width: 235px;
+  color: #00c9cc;;
+  text-transform: uppercase;
+  top: 45px;
+  left: 135px;
+}
+
+.services-icons > .strategy > .icons-wrapper{
+  font-size: 20pt;
+  background: linear-gradient(to left, #00b5b8 0%,#00b5b8 50%,#00b5b8 50%,#00c9cc 50%,#00c9cc 100%);
+  color: #fff;
+  position: absolute;
+  border-radius: 100px;
+  width: 117px;
+  height: 116px;
+}
+
+.icons-wrapper > .fa-facebook{
+  padding: 10px 15px;
+  border-radius: 81px;
+  background-color: #fff;
+  color: #00c9cc;
+  position: absolute;
+  left: 16px;
+  top: 35px;
+}
+
+.icons-wrapper > .fa-google{
+  padding: 10px 12px;
+  border-radius: 81px;
+  background-color: #fff;
+  color: #00b5b8;
+  position: absolute;
+  right: 14px;
+  top: 35px;
+}
+
+.services-icons > .ux{
+  right: 25%;
+  bottom: 18%;
+}
+
+.services-icons > .ux > span{
+  position: absolute;
+  width: 235px;
+  color: #7eabf5;
+  text-transform: uppercase;
+  top: 45px;
+  left: 135px;
+}
+
+.services-icons > .ux > img{
+  font-size: 50pt;
+  background: linear-gradient(to left, #719add 0%,#719add 50%,#719add 50%,#7eabf5 50%,#7eabf5 100%);
+  color: #fff;
+  padding: 15px 43px;
+  position: absolute;
+  border-radius: 100px;
+  height: 116px;
 }
