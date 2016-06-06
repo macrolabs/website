@@ -242,6 +242,10 @@ video{
   border-radius: 100px;
 }
 
+.icons > .product-design > i.active{
+  box-shadow: 0 0 0 3px white, 0 0 0 6px #83b444;
+}
+
 .icons > .web-apps{
   left: 13%;
   bottom: 55%;
@@ -265,6 +269,10 @@ video{
   border-radius: 100px;
 }
 
+.icons > .web-apps > i.active{
+  box-shadow: 0 0 0 3px white, 0 0 0 6px #ffbc31;
+}
+
 .icons > .mobile-apps{
   left: 24%;
   top: 12%;
@@ -286,6 +294,10 @@ video{
   padding: 18px 42px;
   position: absolute;
   border-radius: 100px;
+}
+
+.icons > .mobile-apps > i.active{
+  box-shadow: 0 0 0 3px white, 0 0 0 6px #f34119;
 }
 
 .icons > .ecommerce{
@@ -312,6 +324,10 @@ video{
   border-radius: 100px;
 }
 
+.icons > .ecommerce > i.active{
+  box-shadow: 0 0 0 3px white, 0 0 0 6px #db5f9b;
+}
+
 .icons > .branding{
   right: 34%;
   top: 12%;
@@ -333,6 +349,10 @@ video{
   padding: 25px 30px;
   position: absolute;
   border-radius: 100px;
+}
+
+.icons > .branding > i.active{
+  box-shadow: 0 0 0 3px white, 0 0 0 6px #7744da;
 }
 
 .icons > .strategy{
@@ -357,6 +377,10 @@ video{
   border-radius: 100px;
   width: 117px;
   height: 116px;
+}
+
+.icons > .strategy > .icons-wrapper.active{
+  box-shadow: 0 0 0 3px white, 0 0 0 6px #00c9cc;
 }
 
 .icons > .strategy > .icons-wrapper > .fa-facebook{
@@ -403,6 +427,10 @@ video{
   height: 116px;
 }
 
+.icons > .ux > img.active{
+  box-shadow: 0 0 0 3px white, 0 0 0 6px #7eabf5;
+}
+
 .details > div{
   width: 444px;
   height: 444px;
@@ -417,13 +445,23 @@ video{
   -webkit-box-shadow: 0 0 0.9px 10px #f1f1f1;
   -moz-box-shadow: 0 0 0.9px 10px #f1f1f1;
   box-shadow: 0 0 0.9px 10px #f1f1f1;
+  opacity: 0;
+  -webkit-transition: opacity 0.46s ease-in;
+  -moz-transition: opacity 0.46s ease-in;
+  -o-transition: opacity 0.46s ease-in;
+  transition: opacity 0.46s ease-in;
+}
+
+.details-active{
+  opacity: 1 !important;
 }
 
 .details > div > i {
-  margin-top: 50px;
+  margin-top: 60px;
+  margin-bottom: 20px;
   width: 100%;
   display: block;
-  font-size: 130pt;
+  font-size: 110pt;
 }
 
 .details > div > img {
