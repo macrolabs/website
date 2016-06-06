@@ -23,7 +23,6 @@
   line-height: 55px;
   margin-right: 30px !important;
   float: right!important;
-  background-color: rgba(46,225,174,.5);
 }
 
 .navbar-nav>li {
@@ -35,7 +34,11 @@
 }
 
 .main-section{
-  height: 101vh;
+  height: 104vh;
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -200px;
 }
 
 video{
@@ -179,20 +182,22 @@ video{
 
 .services-head{
   text-align: center;
+  padding-top: 20px;
 }
 
 .services-head > .title{
-  color: #565656;
+  color: rgb(86, 86, 86);
   text-transform: uppercase;
+  font-size: 40pt;
 }
 
 .services-head > .subtitle{
-  color: #565656;
-  text-transform: uppercase;
+  font-size: 18px;
+  color: rgb(108, 108, 108);
+  padding: 5px 0 15px 0;
 }
 
 .services-container > .info {
-  margin-top: 98px;
   height: 588px;
   position: relative;
 }
@@ -212,7 +217,7 @@ video{
   position: absolute;
   margin-left: -397px;
   left: 50%;
-  top: 40px;
+  top: 85px;
 }
 
 .icons div{
@@ -220,8 +225,8 @@ video{
 }
 
 .icons > .product-design{
-  left: 15%;
-  bottom: 18%;
+  left: 14%;
+  bottom: 15%;
 }
 
 .icons > .product-design > span{
@@ -247,8 +252,8 @@ video{
 }
 
 .icons > .web-apps{
-  left: 13%;
-  bottom: 55%;
+  left: 14%;
+  bottom: 52%;
 }
 
 .icons > .web-apps > span{
@@ -274,8 +279,8 @@ video{
 }
 
 .icons > .mobile-apps{
-  left: 24%;
-  top: 12%;
+  left: 26%;
+  top: 17%;
 }
 
 .icons > .mobile-apps > span{
@@ -302,17 +307,17 @@ video{
 
 .icons > .ecommerce{
   left: 50%;
-  top: -30px;
+  top: 15px;
   margin-left: -59px;
 }
 
 .icons > .ecommerce > span{
   position: absolute;
-  width: 235px;
+  width: 145px;
   color: #db5f9b;
   text-transform: uppercase;
   top: -15px;
-  right: -190px;
+  right: -132px;
 }
 
 .icons > .ecommerce > i{
@@ -329,8 +334,8 @@ video{
 }
 
 .icons > .branding{
-  right: 34%;
-  top: 12%;
+  right: 36%;
+  top: 17%;
 }
 
 .icons > .branding > span{
@@ -356,13 +361,13 @@ video{
 }
 
 .icons > .strategy{
-  right: 23%;
-  bottom: 55%;
+  right: 24%;
+  bottom: 52%;
 }
 
 .icons > .strategy > span{
   position: absolute;
-  width: 235px;
+  width: 200px;
   color: #00c9cc;;
   text-transform: uppercase;
   top: 45px;
@@ -404,13 +409,13 @@ video{
 }
 
 .icons > .ux{
-  right: 25%;
-  bottom: 18%;
+  right: 24%;
+  bottom: 15%;
 }
 
 .icons > .ux > span{
   position: absolute;
-  width: 235px;
+  width: 200px;
   color: #7eabf5;
   text-transform: uppercase;
   top: 45px;

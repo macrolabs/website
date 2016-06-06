@@ -1,7 +1,4 @@
 $(document).ready(function(){
-  var services = $(".services")
-  var offset = services.offset();
-
   var services = [{
     icon: ".product-design > i",
     info: "#product-design-content"
