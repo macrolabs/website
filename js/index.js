@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var header = $('.main-text');
+  /*var header = $('.main-text');
   var range = 100;
 
   $(window).on('scroll', function () {
@@ -16,5 +16,5 @@ $(document).ready(function(){
     } else if ( calc < '0' ) {
       header.css({ 'opacity': 0 });
     }
-  });
+  });*/
 })
