@@ -488,36 +488,36 @@ video{
   margin: 0 auto;
 }
 
-.details > #product-design-content{
+.details > .product-design-content{
   background-color: #83b444;
 }
 
-.details > #web-apps-content{
+.details > .web-apps-content{
   background-color: #ffbc31;
 }
 
-.details > #mobile-apps-content{
+.details > .mobile-apps-content{
   background-color: #f34119;
 }
 
-.details > #ecommerce-content{
+.details > .ecommerce-content{
   background-color: #db5f9b;
 }
 
-.details > #branding-content{
+.details > .branding-content{
   background-color: #7744da;
 }
 
-.details > #strategy-content{
+.details > .strategy-content{
   background-color: #00c9cc;
 }
 
-.details > #strategy-content > .icons-wrapper{
+.details > .strategy-content > .icons-wrapper{
   margin-top: 90px;
   margin-bottom: 25px;
 }
 
-.details > #strategy-content > .icons-wrapper > .fa-facebook{
+.details > .strategy-content > .icons-wrapper > .fa-facebook{
   padding: 20px 35px;
   border-radius: 81px;
   background-color: #fff;
@@ -526,7 +526,7 @@ video{
   margin-right: -8px;
 }
 
-.details > #strategy-content > .icons-wrapper > .fa-google{
+.details > .strategy-content > .icons-wrapper > .fa-google{
   padding: 20px 25px;
   border-radius: 81px;
   background-color: #fff;
@@ -535,6 +535,6 @@ video{
   margin-left: -8px;
 }
 
-.details > #ux-content{
+.details > .ux-content{
   background-color: #7eabf5;
 }

@@ -1,25 +1,25 @@
 $(document).ready(function(){
   var services = [{
     icon: ".product-design > i",
-    info: "#product-design-content"
+    info: ".product-design-content"
   }, {
     icon: ".web-apps > i",
-    info: "#web-apps-content"
+    info: ".web-apps-content"
   }, {
     icon: ".mobile-apps > i",
-    info: "#mobile-apps-content"
+    info: ".mobile-apps-content"
   }, {
     icon: ".ecommerce > i",
-    info: "#ecommerce-content"
+    info: ".ecommerce-content"
   }, {
     icon: ".branding > i",
-    info: "#branding-content"
+    info: ".branding-content"
   }, {
     icon: ".strategy > .icons-wrapper",
-    info: "#strategy-content"
+    info: ".strategy-content"
   }, {
     icon: ".ux > img",
-    info: "#ux-content"
+    info: ".ux-content"
   }];
 
   var showService = function(service){
