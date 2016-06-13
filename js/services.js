@@ -51,9 +51,9 @@ $(document).ready(function(){
       addAnimation(services[i]);
       setTimeout(function(){
         removeAnimation(services[i++]);
-        if (i == services.length) i = 0;
+        if (i == services.length) {i = 0;};
       }, 5000);
-    }, 5100); 
+    }, 5100);
   };
 
   services.forEach(function(service){

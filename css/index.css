@@ -1,4 +1,13 @@
-*{font-family: 'Montserrat', sans-serif;}
+*{font-family: 'Raleway', sans-serif;}
+
+.line{
+  height: 1.5px;
+  width: 150px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #2ee1ae;
+}
 
 .navbar-default {
   background-color: transparent;
@@ -166,6 +175,50 @@ video{
   }
 }
 
+.sections-title{
+  text-align: center;
+  color: rgb(86, 86, 86);
+  text-transform: uppercase;
+  font-size: 30pt;
+}
+
+.about{
+  height: 500px;
+  background: white url(../images/about-bg.jpg) center top no-repeat;
+}
+
+.about-head{
+  margin-top: 30px;
+}
+
+.about > .container >{
+  text-align: center;
+}
+
+.about > .container > .content{
+  text-align: center;
+  display: flex;
+  margin-top: 50px;
+}
+
+.about > .container > .content > .history{
+  padding: 0px 40px 0px 0px;
+}
+
+.about > .container > .content > .passion{
+  padding: 0px 0px 0px 40px;
+}
+
+.about > .container > .content p.body{
+  font-size: 11pt;
+  color: #727272;
+  line-height: 25px;
+}
+
+.about > .container > .content p.subtitle{
+  font-size: 20pt;
+  color: #2ee1ae;
+}
 
 .services{
   height: 800px;
@@ -183,12 +236,6 @@ video{
 .services-head{
   text-align: center;
   padding-top: 20px;
-}
-
-.services-head > .title{
-  color: rgb(86, 86, 86);
-  text-transform: uppercase;
-  font-size: 40pt;
 }
 
 .services-head > .subtitle{
